@@ -178,7 +178,13 @@ methodCollection.logHello = function(){console.log('hello')};
 
   //Code Here
 
-
+function makePerson(name, birthday, ssn){
+   var person = {};
+   person.name = name;
+   person.birthday = birthday;
+   person.ssn = ssn;
+   return person;
+}
 
 
 
@@ -192,5 +198,11 @@ methodCollection.logHello = function(){console.log('hello')};
 // Create a function called makeCard which takes in cardNumber, expirationDate, and securityCode to make a Credit Card object and returns that object so that whenever you invoke makeCard, you get a brand new credit card.
 
   //Code Here
-
+function makeCard(cardNumber, expirationDate, securityCode){
+  var cc = {};
+  cc.cardNumber = cardNumber;
+  cc.expirationDate = expirationDate;
+  cc.securityCode = securityCode;
+  return cc;
+}
 
