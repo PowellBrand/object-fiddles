@@ -26,7 +26,14 @@ alert(me.name);
 //Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. Have the values to those keys be your favorite thing in that category.
 
   //Code here
-
+var favoriteThings = {
+  band: 'AFI',
+  food: 'Mexican',
+  person: 'Amber',
+  book: 'Game of Thrones',
+  movie: 'John Wick',
+  holiday: '4th of July'
+}
 
 
 
@@ -36,7 +43,8 @@ alert(me.name);
 //After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 
   //Code here
-
+favoriteThings.car = 'Tesla';
+favoriteThings.brand = 'Volcom';
 
 
 
@@ -44,7 +52,8 @@ alert(me.name);
 //Now change the value of the food key in your favoriteThings object to be 'Chicken Nuggets' and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 
   //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 
@@ -64,8 +73,12 @@ that is named color, with the value being the color of your backpack.
 */
 
   //Code here
+var backPack = {
 
-
+}
+var item = 'firstPocket';
+backPack['firstPocket'] = 'chapstick';
+backPack.color = 'blue';
 
 
 
@@ -73,7 +86,7 @@ that is named color, with the value being the color of your backpack.
 //After you do the above, alert your entire backPack object.
 
   //Code here
-
+alert(backPack);
  
 
 /*
@@ -83,7 +96,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
   //Code here
-
+console.log(backPack);
 
 
 
@@ -105,7 +118,8 @@ var user2 = {
 // name -> 'Tyler S. McGinnis', email -> 'tyler.mcginnis@devmounta.in'. Make that change.
 
   //Code Here
-
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
@@ -127,7 +141,7 @@ var user2 = {
 //Create an empty object called methodCollection.
 
   //Code Here
-
+var methodCollection ={}
 
 
 
@@ -138,7 +152,8 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
  */
 
   //Code Here
-
+methodCollection.alertHello = function(){alert('hello')};
+methodCollection.logHello = function(){console.log('hello')};
 
 
 
