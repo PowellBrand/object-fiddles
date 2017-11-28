@@ -152,8 +152,8 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
  */
 
   //Code Here
-methodCollection.alertHello = function(){alert('hello')};
-methodCollection.logHello = function(){console.log('hello')};
+methodCollection.alertHello = function(){return alert('hello')};
+methodCollection.logHello = function(){return console.log('hello')};
 
 
 
@@ -162,7 +162,8 @@ methodCollection.logHello = function(){console.log('hello')};
 
   //Code Here
 
-
+methodCollection.alertHello();
+methodCollection.logHello();
 
 
 
